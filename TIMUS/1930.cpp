@@ -1,3 +1,14 @@
+/*
+ * Idea : i used dijkstra algorithm to know the minimum distance , 
+ * but there were cycles between the nodes
+ * so i had to make the distance array on dijkstra 2-d 
+ * one refer to the up direction and the other to the down and i minimize on both.
+ * 
+ */
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e4 + 4, inf = 1e8;

@@ -1,3 +1,12 @@
+/*
+ * Idea :
+ * i used binary search to find the smallest n as i proved 
+ * that the number of ways grow because it depends on all 
+ * the numbers less then n that is a multipe of k ^ 3 and  k > 1
+ */
+
+
+
 #include<bits/stdc++.h>
 
 using namespace std;

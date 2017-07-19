@@ -1,3 +1,15 @@
+
+/*
+ * Idea :
+ * i use dfs algorithm from each node 
+ * , if i meet the conditions he mentioned from one or more then this is a caterpillar,
+ * and on the dfs  if i reached to a node 
+ * that is already visited and this node is'nt my parent then there
+ * exist a cycle and the against the conditions.
+ * 
+ *
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e2 + 4;

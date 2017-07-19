@@ -1,3 +1,22 @@
+
+/*
+ * Idea :
+ * lets first call each wheel-geer : a node ,
+ * and the wheel-geer that is connected to the
+ *  kinetic-generator : the source.
+ *  we have the speed of the source and from this speed we can get 
+ *  the speed of the nodes that are connected to the source
+ *  and this speed =  speed of the source * (source number of gocks / 
+ *   the node am standing on number of gocks )
+ *   now we have the speed of all the nodes that are connected to the source
+ *   from here i can imagine that each node connected to the source
+ *   is a source too and the previous equation applies on 
+ *   so i can get the speed of the nodes that are connected to those nodes
+ *   and so on 
+ *   and to reach to this solution
+ 
+ */ 
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e3 + 3;
