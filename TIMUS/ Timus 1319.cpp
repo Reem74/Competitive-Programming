@@ -1,3 +1,12 @@
+
+/*
+ * IDEA:pitting the values from 1 to N * N in a diagonal shape from the top right cell
+ * 
+ */
+
+
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

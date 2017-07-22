@@ -1,3 +1,14 @@
+
+/*
+ * IDEA:
+ * its known that the original string we keep getting the char of the middle 
+ * then divide the array from the middle to left part and right part
+ * and working on the left then right with the same way so i keep doing this
+ * but instead i put at this cells the value from the input in from 0
+ *  to the input  size
+ * 
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;
