@@ -1,7 +1,8 @@
 /*
  * IDEA:
- * keep adding the value of x until a subsegment its
- *  sum equals a negative value
+ * keep adding the value of x until finding a subsegment sum 
+ *   equals a negative value so i start the addition after
+ *    this subsegment
  *
  */
 #include <bits/stdc++.h>
