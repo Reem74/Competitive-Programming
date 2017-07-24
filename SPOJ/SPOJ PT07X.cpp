@@ -15,7 +15,7 @@
 using namespace std;
 const int N = 1e5 + 5;
 vector<int> adj[N];
-int visit[N], TakeItOrNot[N], v;
+int visit[N], TakeIt[N], v;
 int dfs(int parent, int child) {
 	if (visit[child])
 		return v;
@@ -23,8 +23,8 @@ int dfs(int parent, int child) {
 	for (int i = 0; i < (int) adj[child].size(); i++) {
 		dfs(child, adj[child][i]);
 	}
-	if (!TakeItOrNot[child] && !TakeItOrNot[parent]) {
-		TakeItOrNot[parent] = 1;
+	if (!TakeIt[child] && !TakeIt[parent]) {
+		TakeIt[parent] = 1;
 		v++;
 	}
 	return v;
@@ -37,7 +37,7 @@ int main() {
 		cin >> u >> v;
 		adj[u].push_back(v), adj[v].push_back(u);
 	}
-	TakeItOrNot[0] = 1;
+	TakeIt[0] = 1;
 	cout << dfs(0, 1);
 }
 
