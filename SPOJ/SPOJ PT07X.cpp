@@ -7,7 +7,7 @@
  are connected to each other one of the nodes so i take the parent
  because it may bring a better answer or the exact same answer of taking
  the leaf after that i take all the nodes which have at least one
-  child isn't have been taken on the set
+  child not taken on the set
  */
 
 #include <bits/stdc++.h>
