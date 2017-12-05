@@ -27,6 +27,7 @@ int main() {
 		cin >> a >> b >> c;
 		int ans = dp(0, 0);
 		swap(a, b);
+		memset(memo, -1, sizeof memo);
 		ans = min(ans, dp(0, 0));
 		if (ans >= INF)
 			cout << -1 << endl;
