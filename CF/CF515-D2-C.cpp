@@ -1,3 +1,11 @@
+/*
+ * i replace each digit with the closest prime 
+ * it can reach to and replace the numbers from this prime to the original 
+ * number with the those numbers prime factors
+ * 
+ */
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
